@@ -15,7 +15,7 @@ I have also analyzed the speed of the algorithms using different number of clust
 ![Different cluster](cluster_difference.png)
 
 ## Local vs Global memory
-When writing OpenCL code for parallelization, you can optimize the code by using local memory objects for each Compute Unit so the memory acess takes less clock cycles than acessing global memory objects. In the picture below you can see the difference in time to compress the pictures using global memory only and using gloabal and local memory combined.
+When writing OpenCL code for parallelization, you can optimize the code by using local memory objects for each Compute Unit so the memory acess takes less clock cycles than acessing global memory objects. In the picture below you can see the difference in time to compress the pictures using global memory only and using global and local memory combined.
 
 ![Local vs Global](local_global.png)
 
