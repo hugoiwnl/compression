@@ -1,6 +1,6 @@
 # Compression
 ## Summary
-This is a representation of compressing pictures with different algorithms using kNN algorithm. The code includes serial algorithm, algorithm that is parallelyzed on CPU and algorythm that is parallelyzed on GPU.
+This is a representation of compressing pictures with different resolutions using kNN algorithm. The code includes serial algorithm, algorithm that is parallelized on CPU and algorithm that is parallelized on GPU.
 
 ![Compression of a 1600x900 picture](compress_difference.png)
 
